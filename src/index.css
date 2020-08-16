@@ -1,0 +1,57 @@
+:root {
+  --branco: #f4faff;
+  --salario: #398632;
+  --inss: crimson;
+  --irpf: darkgoldenrod;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.div-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.bg-inss {
+  background-color: var(--inss);
+}
+
+.bg-irpf {
+  background-color: var(--irpf);
+}
+
+.bg-salario {
+  background-color: var(--salario);
+}
+
+.color-inss {
+  color: var(--inss);
+  font-weight: 600;
+}
+
+.color-irpf {
+  color: var(--irpf);
+  font-weight: 600;
+}
+
+.color-salary {
+  color: var(--salario);
+  font-weight: 700;
+}
